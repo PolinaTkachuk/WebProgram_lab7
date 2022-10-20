@@ -1,0 +1,58 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0; }
+
+/*--------------------*/
+.content{
+   margin: 0px 0 0 8px;
+   font-size: 13px;
+}
+.input_{
+   border: solid black 1px;
+   width: 165px;
+   margin-top: 8px;
+}
+.button button{
+   text-align: center;
+   border: solid black 1px;
+   padding: 3px 5px;
+}
+.circle
+{
+   width: 100px;
+	height: 100px;
+   position: absolute;
+   border: 1px solid black;
+   border-radius: 50%;
+   background: green;
+   transform: translate(10px, 10px);
+   /*
+   transform: translateX(10px);
+   transform: translateY(10px);
+   */
+   opacity: 100%;
+} 
+.square{
+   opacity: 100%;
+   background: red;
+   width: 100px;
+   height: 100px;
+   position: absolute;
+   transform: translate(10px, 10px);
+   border: 1px solid black;
+  
+} 
+.triangle{
+   transform: translate(10px, 10px);
+   opacity: 100%;
+   position: absolute;
+   width: 0;
+	height: 0;
+   /*
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+   */
+   border: 20px solid transparent; 
+   border-bottom: 20px solid blue;
+  
+}
